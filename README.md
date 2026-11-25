@@ -38,7 +38,7 @@
 
 ## How to use it
 
-Press **⇧⌘Space** in any app and describe what you're looking for.
+Press **⌥U** (Option and U) in any app and describe what you're looking for.
 
 | Type | To find |
 |---|---|
@@ -51,7 +51,7 @@ Press **⇧⌘Space** in any app and describe what you're looking for.
 
 | Press | To |
 |---|---|
-| ⇧⌘Space | Open Unearth from anywhere (you can change it in Settings) |
+| ⌥U | Open Unearth from anywhere (you can change it in Settings) |
 | ↑ ↓ | Move through the results |
 | Return | Open the result, at its page or moment when the app allows it |
 | Space | Preview it (after moving to a result) |
@@ -60,10 +60,13 @@ Press **⇧⌘Space** in any app and describe what you're looking for.
 | ⌘C | Copy the file |
 | ⌘Return | Show it in Finder |
 | ⌘O | Open the bigger window |
+| Esc | Close |
 
 Unearth lives in the menu bar, where you can pause it, open Settings or quit.
 
 ## What's inside
+
+Unearth uses Apple's Liquid Glass on macOS 26 and later, in light and dark.
 
 <table>
   <tr>
@@ -78,27 +81,31 @@ Unearth lives in the menu bar, where you can pause it, open Settings or quit.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img alt="A result in light mode with Convert and More Like This" src="screenshots/light.png">
+      <img alt="Liquid Glass in light mode, with Convert and More Like This" src="screenshots/light.png">
       <p><b>Convert and More Like This.</b> Save a picture as PNG, JPEG, HEIC, AVIF, TIFF, GIF, BMP or PDF. The original isn't changed.</p>
     </td>
     <td width="50%" valign="top">
       <img alt="The bigger window with a grid of results" src="screenshots/window.png">
-      <p><b>A bigger look.</b> A grid of pictures with filters by kind.</p>
+      <p><b>A bigger look.</b> Press ⌘O for a glass window with a grid of pictures with filters by kind.</p>
     </td>
   </tr>
 </table>
+
+**In Spotlight and Shortcuts.** On macOS 26 or later, press ⌘Space, type **Search Files**, pick the Unearth action and describe the file. Unearth opens with the results.
 
 **Works with [Lumen](https://github.com/SamayW/lumen-releases).** If you have it, **Lumen Shelf** puts a copy of any result on your notch shelf.
 
 ## Your data
 
 - **Everything you index stays on your Mac.** No account, no tracking.
-- **Unearth goes online once,** to download its model.
+- **Unearth only goes online** to download its model once and to check GitHub for updates. Nothing about your files is sent.
 - **It only reads the folders you choose,** and doesn't change your files. Converting a picture saves a new copy beside it.
 
 ## Updates
 
-Unearth doesn't update itself yet. Download the newest version here and replace the old one in Applications. Your index and settings stay.
+From 1.1, Unearth updates itself. It checks every hour and installs a new version when you're not using it. You can turn this off in **Settings › General**.
+
+Have 1.0? Download the newest version once and replace the old one in Applications. Your index and settings stay.
 
 ## Uninstall
 
